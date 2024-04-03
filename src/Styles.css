@@ -1,0 +1,94 @@
+/* App.css */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  text-align: center;
+}
+
+.heading {
+  display: flex;
+  flex-direction: column;
+  height: 20vh;
+  position: fixed;
+  top: 0;
+}
+
+.title {
+  font-size: 30px; /* Increase font size */
+  margin-bottom: 20px; /* Add some space below the title */
+}
+
+.search-bar {
+  margin-bottom: 20px; /* Add some space below the search bar */
+  font-size: 20px; /* Increase font size */
+}
+
+.search-input {
+  padding: 30px;
+  width: 500px; /* Set a specific width for the input */
+  margin-right: 10px; /* Add some space between the input and the button */
+  font-size: 20px; /* Increase font size for the input */
+}
+
+.search-button {
+  padding: 30px 20px;
+  cursor: pointer;
+  font-size: 20px; /* Increase font size for the button */
+}
+
+.movies-container {
+  padding-top: 100px;
+  margin-top: 80px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.movie-card {
+  cursor: pointer;
+  margin-top: 20px;
+  padding: 20px;
+  width: 300px;
+  font-size: 15px;
+  border: 1px solid #ccc;
+}
+
+.list-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  max-height: 350px;
+  overflow-y: auto;
+}
+
+.page-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.page-text {
+  font-size: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.page-button {
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.back-button {
+  padding: 20px;
+  cursor: pointer;
+  font-size: 30px;
+  font-weight: bold;
+}
